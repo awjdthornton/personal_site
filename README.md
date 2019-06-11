@@ -6,14 +6,14 @@ kelly green #4ED554
 light orange #FFC300
 
 ## Main Color Scheme (I guess will use default bootstrap theme, since doesn't seem to be an easy way to replace it without SASS which I don't have time to learn yet)
-off white #F6F7F7
-khaki green #959E8B
-aqua #5FC5DA
-light purple #766D82
-midnight blue #20365F
+off white #F6F7F7  
+khaki green #959E8B  
+aqua #5FC5DA  
+light purple #766D82  
+midnight blue #20365F  
 
 ## Fonts
-Headers -> Nanum Gothic
+Headers -> Nanum Gothic  
 Body -> Space Mono
 
 <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Space+Mono&display=swap" rel="stylesheet">
