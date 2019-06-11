@@ -1,0 +1,14 @@
+/*CSS Gradient*/
+
+.colorful {
+  background:
+    -webkit-linear-gradient(315deg, hsla(118.4, 90.3%, 47.3%, 1) 0%, hsla(118.4, 90.3%, 47.3%, 0) 70%),
+    -webkit-linear-gradient(65deg, hsla(204.9, 94.04%, 48.94%, 1) 10%, hsla(204.9, 94.04%, 48.94%, 0) 80%),
+    -webkit-linear-gradient(135deg, hsla(189.09, 96.78%, 46.31%, 1) 15%, hsla(189.09, 96.78%, 46.31%, 0) 80%),
+    -webkit-linear-gradient(205deg, hsla(86.83, 91.32%, 40.93%, 1) 100%, hsla(86.83, 91.32%, 40.93%, 0) 70%);
+  background:
+    linear-gradient(135deg, hsla(118.4, 90.3%, 47.3%, 1) 0%, hsla(118.4, 90.3%, 47.3%, 0) 70%),
+    linear-gradient(25deg, hsla(204.9, 94.04%, 48.94%, 1) 10%, hsla(204.9, 94.04%, 48.94%, 0) 80%),
+    linear-gradient(315deg, hsla(189.09, 96.78%, 46.31%, 1) 15%, hsla(189.09, 96.78%, 46.31%, 0) 80%),
+    linear-gradient(245deg, hsla(86.83, 91.32%, 40.93%, 1) 100%, hsla(86.83, 91.32%, 40.93%, 0) 70%);
+  }

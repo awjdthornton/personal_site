@@ -1,0 +1,108 @@
+/*Custom CSS for personal website*/
+
+body {
+		font-family: 'Nanum Gothic', sans-serif;
+	}
+	
+h1, h2, h3, h4, h5, h6 {
+		font-family: 'Space Mono', monospace;
+		margin-bottom: 15px
+	}		
+	
+.bio {
+	background-image: url("./resources/backgrounds/halftone-yellow/halftone-yellow.png");
+	}
+
+.blog {
+	background-image: url("./resources/backgrounds/just-waves/just-waves.png");
+	}
+	
+.product_ideas {
+	background-image: url("./resources/backgrounds/polka-dots/polka-dots.png");
+	background-color: lightgreen;
+	background-blend-mode: screen;
+	}
+
+nav {
+	font-size: 1.25rem;
+	}
+
+
+.content {
+	margin-top: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	}
+	
+nav, .content {
+		box-shadow: 3px 5px 8px;
+		}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+	/*border: solid black 1px;*/
+	}
+
+/*	
+.col-sm-3, .col-sm-4, .col-sm-6, .col-sm-8, .col-sm-9, .col-md-3, .col-md-4, .col-md-6, .col-md-8, .col-md-9 {
+	border: solid black 1px;
+	}
+*/
+	
+.btn {
+	margin: 5px;
+	}
+	
+.left_border {
+		border-left-style: solid;
+		border-left-width: 35px;
+		border-left-color: lightgrey;
+		}
+
+.icon_container {
+	width: 0px;
+	height: 0px;
+	}
+	
+.pen_icon {
+
+    left: -52.5px;
+    top: 20px;
+    color: #FFC300; /*light orange*/
+	padding: 15px;
+	border-radius: 50%;
+	font-size: 2rem;
+	box-shadow: 2px 3px 5px #212529;
+    }
+ 
+.title_subtitle {
+ 	padding-left: 30px;
+ 	}
+
+.content_col {
+	padding: 0px 5px;
+	}
+
+.post_date p {
+	margin-bottom: 0px;
+	}
+	
+
+	
+/*CSS Gradient*/
+
+.colorful {
+  background:
+    -webkit-linear-gradient(315deg, hsla(118.4, 90.3%, 47.3%, 1) 0%, hsla(118.4, 90.3%, 47.3%, 0) 70%),
+    -webkit-linear-gradient(65deg, hsla(204.9, 94.04%, 48.94%, 1) 10%, hsla(204.9, 94.04%, 48.94%, 0) 80%),
+    -webkit-linear-gradient(135deg, hsla(189.09, 96.78%, 46.31%, 1) 15%, hsla(189.09, 96.78%, 46.31%, 0) 80%),
+    -webkit-linear-gradient(205deg, hsla(86.83, 91.32%, 40.93%, 1) 100%, hsla(86.83, 91.32%, 40.93%, 0) 70%);
+  background:
+    linear-gradient(135deg, hsla(118.4, 90.3%, 47.3%, 1) 0%, hsla(118.4, 90.3%, 47.3%, 0) 70%),
+    linear-gradient(25deg, hsla(204.9, 94.04%, 48.94%, 1) 10%, hsla(204.9, 94.04%, 48.94%, 0) 80%),
+    linear-gradient(315deg, hsla(189.09, 96.78%, 46.31%, 1) 15%, hsla(189.09, 96.78%, 46.31%, 0) 80%),
+    linear-gradient(245deg, hsla(86.83, 91.32%, 40.93%, 1) 100%, hsla(86.83, 91.32%, 40.93%, 0) 70%);
+  }	
+	
