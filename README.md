@@ -2,7 +2,7 @@
 Personal website with bio, blog, and ideas. Made for Kickstart Coding homework 1
 
 ## Complimentary Colors
-kelly green #4ED554
+kelly green #4ED554  
 light orange #FFC300
 
 ## Main Color Scheme (I guess will use default bootstrap theme, since doesn't seem to be an easy way to replace it without SASS which I don't have time to learn yet)
