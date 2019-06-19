@@ -1,6 +1,9 @@
 # personal_site
 Personal website with bio, blog, and ideas. Made for Kickstart Coding homework 1
 
+# site build instructions
+To build the website run either build.py or build.sh. Note that build.py will be improved over time, while build.sh will be left behind.
+
 ## Complimentary Colors
 kelly green #4ED554  
 light orange #FFC300
