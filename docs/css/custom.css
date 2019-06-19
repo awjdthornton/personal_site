@@ -8,17 +8,17 @@ h1, h2, h3, h4, h5, h6 {
 		font-family: 'Space Mono', monospace;
 		margin-bottom: 15px
 	}		
-	
+
 .bio {
-	background-image: url("./resources/backgrounds/halftone-yellow/halftone-yellow.png");
+	background-image: url("../img/halftone-yellow/halftone-yellow.png");
 	}
 
 .blog {
-	background-image: url("./resources/backgrounds/just-waves/just-waves.png");
+	background-image: url("../img/just-waves/just-waves.png");
 	}
 	
 .product_ideas {
-	background-image: url("./resources/backgrounds/polka-dots/polka-dots.png");
+	background-image: url("../img/polka-dots/polka-dots.png");
 	background-color: lightgreen;
 	background-blend-mode: screen;
 	}
