@@ -1,13 +1,13 @@
 /*Custom CSS for personal website*/
 
 body {
-		font-family: 'Nanum Gothic', sans-serif;
-	}
+	font-family: 'Nanum Gothic', sans-serif;
+}
 	
 h1, h2, h3, h4, h5, h6 {
-		font-family: 'Space Mono', monospace;
-		margin-bottom: 15px
-	}		
+	font-family: 'Space Mono', monospace;
+	margin-bottom: 15px
+}		
 
 .bio {
 	background-image: url("../img/halftone-yellow/halftone-yellow.png");
@@ -36,14 +36,14 @@ nav {
 	}
 	
 nav, .content {
-		box-shadow: 3px 5px 8px;
-		}
+	box-shadow: 3px 5px 8px;
+}
 
 .row {
 	margin-left: 0px;
 	margin-right: 0px;
 	/*border: solid black 1px;*/
-	}
+}
 
 /*	
 .col-sm-3, .col-sm-4, .col-sm-6, .col-sm-8, .col-sm-9, .col-md-3, .col-md-4, .col-md-6, .col-md-8, .col-md-9 {
@@ -53,21 +53,20 @@ nav, .content {
 	
 .btn {
 	margin: 5px;
-	}
+}
 	
 .left_border {
-		border-left-style: solid;
-		border-left-width: 35px;
-		border-left-color: lightgrey;
-		}
+	border-left-style: solid;
+	border-left-width: 35px;
+	border-left-color: lightgrey;
+}
 
 .icon_container {
 	width: 0px;
 	height: 0px;
-	}
+}
 	
 .pen_icon {
-
     left: -52.5px;
     top: 20px;
     color: #FFC300; /*light orange*/
@@ -75,21 +74,20 @@ nav, .content {
 	border-radius: 50%;
 	font-size: 2rem;
 	box-shadow: 2px 3px 5px #212529;
-    }
+}
  
 .title_subtitle {
  	padding-left: 30px;
- 	}
+ }
 
 .content_col {
 	padding: 0px 5px;
-	}
+}
 
 .post_date p {
 	margin-bottom: 0px;
-	}
+}
 	
-
 	
 /*CSS Gradient*/
 
