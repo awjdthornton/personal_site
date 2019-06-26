@@ -30,15 +30,23 @@ def main():
 		},
 	]				
 			
-	#open the template and define it as a Template object
-	template = open('./templates/template.html').read()
-	template = Template(template)
+	def open_template():		
+		#open the template and define it as a Template object
+		template = open('./templates/template.html').read()
+		template = Template(template)
+		return template
 					
-	for page in pages:
-		#combine template and content, replacing the page specific stuff 
-		page_content = open(page["filename"]).read()
-		page_output = template.safe_substitute(page, content=page_content)
-		open(page["output_file"] , 'w+').write(page_output)
+	
+	def create_pages (template):
+		for page in pages:
+			#combine template and content, replacing the page specific stuff 
+			page_content = open(page["filename"]).read()
+			page_output = template.safe_substitute(page, content=page_content)
+			open(page["output_file"] , 'w+').write(page_output)
+			
+	
+	tmpl = open_template()
+	create_pages(tmpl)
 
 	print("build.py static site generator - run complete")
 
