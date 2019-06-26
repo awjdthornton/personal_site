@@ -6,11 +6,11 @@ def main():
 
 	print("beginning build.py")
 
-	#open the advanced template and define it as a Template class
+	#open the template and define it as a Template object
 	template = open('./templates/template.html').read()
 	template = Template(template)
 
-	#combine template and content, replacing the page specific stuff in the template portion
+	#combine template and content, replacing the page specific stuff 
 	index_content = open('./content/index.html').read()
 	index_page = template.safe_substitute(title="About Me", active_bio="active", content=index_content, bg_class="bio")
 	open('./docs/index.html' , 'w+').write(index_page)
