@@ -52,8 +52,10 @@ def create_main_pages (template):
 	for page in main_pages:
 		#combine template and content, replacing the page specific stuff 
 		page_content = open(page["filename"]).read()
+		#for some reason you to re-define template as an object of the Template class each time you do a substitution
 		template = Template(template)
 		template = template.safe_substitute(page, content=page_content)
+		#update the nav section to convert the <a> to a <span> for the page itself and to set the active class on that nav item
 		page_output = template.replace('<a class="nav-link" href="' + page['href'] + '">' + page['link_label'] + '</a>', '<span class="nav-link active" href="' + page['href'] + '">' + page['link_label'] + '</span>')
 		open(page["output_file"] , 'w+').write(page_output)
 
