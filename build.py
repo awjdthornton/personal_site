@@ -1,7 +1,26 @@
 #trying to generate sites, set page title, and set active class all in one step
 
-#bring in the Template string methods
+#bring in the Template string module
 from string import Template
+
+#bring in the glob module for looping through files in a directory
+import glob
+all_html_files = glob.glob("./content/*.html")
+#print(all_html_files)
+
+pages = []
+#bring in os module for parsing file paths
+import os
+for file_path in all_html_files:
+	file_name = os.path.basename(file_path)
+	name_only, extension = os.path.splitext(file_name)
+	pages.append({
+					'filename': file_path,
+					'title': name_only.capitalize(),
+					'output_file': './docs/'+file_name,
+	})
+print(pages)
+
 
 main_pages = [
 	{
@@ -49,14 +68,14 @@ def nav_links():
 	return top_links
 
 def create_main_pages (template):
-	for page in main_pages:
+	for page in pages:
 		#combine template and content, replacing the page specific stuff 
 		page_content = open(page["filename"]).read()
 		#for some reason you to re-define template as an object of the Template class each time you do a substitution
 		page_output = Template(template)
 		page_output = page_output.safe_substitute(page, content=page_content)
 		#update the nav section to convert the <a> to a <span> for the page itself and to set the active class on that nav item
-		page_output = page_output.replace('<a class="nav-link" href="' + page['href'] + '">' + page['link_label'] + '</a>', '<span class="nav-link active" href="' + page['href'] + '">' + page['link_label'] + '</span>')
+#		page_output = page_output.replace('<a class="nav-link" href="' + page['href'] + '">' + page['link_label'] + '</a>', '<span class="nav-link active" href="' + page['href'] + '">' + page['link_label'] + '</span>')
 		open(page["output_file"] , 'w+').write(page_output)
 
 
