@@ -9,6 +9,11 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 15px
 }		
 
+.bground {
+	background-image: url("../img/just-waves/just-waves.png");
+}
+
+/*
 .bio {
 	background-image: url("../img/halftone-yellow/halftone-yellow.png");
 }
@@ -16,12 +21,13 @@ h1, h2, h3, h4, h5, h6 {
 .blog {
 	background-image: url("../img/just-waves/just-waves.png");
 }
-	
+
 .product_ideas {
 	background-image: url("../img/polka-dots/polka-dots.png");
 	background-color: lightgreen;
 	background-blend-mode: screen;
 }
+*/
 
 nav {
 	font-size: 1.25rem;
