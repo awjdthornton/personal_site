@@ -1,4 +1,8 @@
-			<div class="content bg-light rounded left_border">
+title: Blog
+author: Andrew
+background: bg_blog
+
+<div class="content bg-light rounded left_border">
 				<div class="postion-relative icon_container">
 					<i class="fas fa-pen fa-2x circle-icon pen_icon position-relative colorful"></i>
 				</div>

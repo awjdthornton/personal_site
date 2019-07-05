@@ -1,4 +1,8 @@
-			<div class="content bg-light row rounded left_border">
+title: Bio
+author: Andrew
+background: bg_bio
+
+<div class="content bg-light row rounded left_border">
 				<div class="col-md-4">
 					<img class="img-fluid rounded" src="./img/profile.jpg" alt="profile picture">
 				</div>

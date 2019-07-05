@@ -6,13 +6,11 @@ import utils
 #bring in system functionality
 import sys
 
+
 def main():
 	print("manage.py static site generator - run started")
 	if len(sys.argv) == 1:
-		print('''Usage:
-		Rebuild site: python manage.py build
-		Create new page: python manage.py new_content
-		''')
+		utils.invalid_arg()
 	else:
 		command = sys.argv[1]
 		if command == 'build':
@@ -21,10 +19,7 @@ def main():
 		elif command == 'new':
 			utils.new_content()
 		else:
-			print('''Usage:
-			Rebuild site: python manage.py build
-			Create new page: python manage.py new_content
-			''')
+			utils.invalid_arg()
 	print("manage.py static site generator - run complete")
 
 

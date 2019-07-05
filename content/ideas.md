@@ -1,9 +1,11 @@
-			<div class="content bg-light rounded left_border">
+title: Ideas
+author: Andrew
+background: bg_product_ideas
+
+<div class="content bg-light rounded left_border">
 				<div class="postion-relative icon_container">
 					<i class="fas fa-tasks fa-2x circle-icon pen_icon position-relative colorful"></i>
 				</div>
-
-
 				<div class="row">
 					<div class="col title_subtitle">
 						<h1>Ideas</h1>

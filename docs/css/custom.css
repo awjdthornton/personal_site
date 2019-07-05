@@ -2,6 +2,7 @@
 
 body {
 	font-family: 'Nanum Gothic', sans-serif;
+	background-image: url("../img/just-waves/just-waves.png");
 }
 	
 h1, h2, h3, h4, h5, h6 {
@@ -9,32 +10,26 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 15px
 }		
 
-.bground {
-	background-image: url("../img/just-waves/just-waves.png");
-}
-
-/*
-.bio {
+.bg_bio {
 	background-image: url("../img/halftone-yellow/halftone-yellow.png");
 }
 
-.blog {
+.bg_blog {
 	background-image: url("../img/just-waves/just-waves.png");
 }
 
-.product_ideas {
+.bg_product_ideas {
 	background-image: url("../img/polka-dots/polka-dots.png");
 	background-color: lightgreen;
 	background-blend-mode: screen;
 }
-*/
 
 nav {
 	font-size: 1.25rem;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(0,0,0,.4);
+	color: rgba(0,0,0,.4);
 }
 
 .content {
