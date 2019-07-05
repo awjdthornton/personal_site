@@ -59,8 +59,9 @@ def new_content():
 	print('./content/'+new_filename+'.html')
 	
 def invalid_arg():
-	print('''Usage:
-			Rebuild site: python manage.py build
-			Create new page: python manage.py new_content
+	print('''Invalid argument
+Usage:
+	Rebuild site: python manage.py build
+	Create new page: python manage.py new_content
 	''')
 

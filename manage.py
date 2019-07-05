@@ -8,15 +8,16 @@ import sys
 
 
 def main():
-	print("manage.py static site generator - run started")
 	if len(sys.argv) == 1:
 		utils.invalid_arg()
 	else:
 		command = sys.argv[1]
 		if command == 'build':
+			print("manage.py static site generator - build started")
 			tmpl = utils.open_template()
 			utils.create_main_pages(tmpl)
 		elif command == 'new':
+			print("manage.py static site generator - new content add started")
 			utils.new_content()
 		else:
 			utils.invalid_arg()
