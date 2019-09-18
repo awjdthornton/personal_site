@@ -62,6 +62,6 @@ def invalid_arg():
 	print('''Invalid argument
 Usage:
 	Rebuild site: python manage.py build
-	Create new page: python manage.py new_content
+	Create new page: python manage.py new
 	''')
 
