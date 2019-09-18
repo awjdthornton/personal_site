@@ -53,10 +53,18 @@ def create_main_pages (template):
 		
 def new_content():
 	new_filename = input('What do you want to name the new file? ')
-	open('./content/'+new_filename+'.html', 'w+').write('''<h1>New Content!</h1>
+	open('./content/'+new_filename+'.md', 'w+').write(
+'''title: sample_title
+author: sample_author
+background: sample_bg
+
+<div class="content bg-light row rounded left_border">>
 	
-	<p>New content...</p>''')
-	print('./content/'+new_filename+'.html')
+	<p>New content...</p>
+
+</div>'''
+)
+	print('./content/'+new_filename+'.md')
 	
 def invalid_arg():
 	print('''Invalid argument

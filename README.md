@@ -2,7 +2,8 @@
 Personal website with bio, blog, and ideas
 
 # site build instructions
-To build the website run build.py which is
+To build the website run 'python manage.py build'
+To add a new page to the site run 'python manage.py new'
 
 ## Complimentary Colors
 kelly green #4ED554  
