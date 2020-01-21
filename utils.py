@@ -13,7 +13,7 @@ md = markdown.Markdown(extensions=["markdown.extensions.meta"])
 
 all_md_files = glob.glob("./content/*.md")
 
-# sorting by file_name which will impact how the links will be sorted which should be less arbitrary
+# sorting by file name which will impact how the links will be sorted. Ideally this should be less arbitrary
 all_md_files.sort()
 
 pages = []
@@ -27,7 +27,6 @@ for file_path in all_md_files:
 					'output_file': './docs/'+name_only+'.html',
 					'href': name_only+'.html',
 	})
-
 
 def open_template():		
 	#open the template and define it as a Template object
