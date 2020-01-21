@@ -13,6 +13,9 @@ md = markdown.Markdown(extensions=["markdown.extensions.meta"])
 
 all_md_files = glob.glob("./content/*.md")
 
+# sorting by file_name which will impact how the links will be sorted which should be less arbitrary
+all_md_files.sort()
+
 pages = []
 
 for file_path in all_md_files:

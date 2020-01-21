@@ -66,7 +66,7 @@ background: bg_product_ideas
 									</div>
 								</div>
 								<div class="row">
-									<p>Single-purpose horizontal selfie flipper for iOS. Should work on batches of selfies too. Make sure flipped selfies are saved a Selfies or Portraits in iOS if applicable.</p>
+									<p>Single-purpose horizontal selfie flipper for iOS. Should work on batches of selfies too. Make sure flipped selfies are saved as Selfies or Portraits in iOS if applicable.</p>
 								</div>
 							</div>
 						</div>

@@ -36,7 +36,7 @@ background: bg_blog
             </div>
             <div class="row">
               <div class="col-lg-3 content_col">
-                <img class="img-fluid" src="https://301myvlwbns3u1gtzmb9enih-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/Screenshot-2017-11-13-10.40.58.png" alt="brain exploding with paint">
+                <img class="img-fluid" src="https://i.pinimg.com/236x/9d/14/23/9d1423a192d5f1b47f6f43dafaeb0ba3--watercolour-illustration-watercolor-painting.jpg" alt="ideas going into the sky">
               </div>
               <div class="col-lg-9 content_col">
                 <div class="row">
